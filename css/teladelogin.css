@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Playwrite+HU:wght@100..400&display=swap');
+
+* {
+   text-align: center;
+   font-family: 'noto sans kr', sans-serif;
+
+}
+
+h1 {
+   border: 2px solid #b160e7;
+   border-radius: 10px;
+   margin-right: 550px;
+   margin-left: 550px;
+   color: rgb(253, 253, 253);
+   padding: 30px;
+   font-size: 60px;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+   background-image: url('../IMG/lilas.jpg');
+   background-size: cover;
+   background-position: top right;
+   background-repeat: no-repeat;
+   color: rgb(255, 255, 255);
+}
+
+.fodecao {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 50px;
+   border-radius: 10px;
+   margin-right: 700px;
+   margin-left: 700px;
+}
+
+p {
+   font-size: 30px;
+   padding-right: 10px;
+   padding-left: 10px;
+}
+
+form input[type="email"], input[type="password"] {
+   width: 330px;
+   height: 20px;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: rgba(255, 255, 255, 0.8);
+}
+
+form input[type="submit"] {
+   width: 200px;
+   height: 40px;
+   background-color: transparent;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+   background-color: #a500fd;
+   transition: 0.5s;
+}
+
+form a {
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+}
+
+form a:hover {
+   text-decoration: underline;
+   transition: 0.5s;
+}
